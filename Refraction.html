@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Refraction</title>
+
+    <script type="module" src="refractionfunctions.js"></script>
+</head>
+<body>
+
+<canvas id="gl-canvas" width="512" height="512">
+    Sorry; your web browser doesn't support HTML5's canvas element.
+</canvas>
+
+<div class="dropdown">
+    <form>
+    <select id = "refractionIndex" name="refractionIndex">
+        <option value="1.33">Water</option>
+        <option value="1.309">Ice</option>
+        <option value="1.52">Glass</option>
+        <option value="2.42">Diamond</option>
+    </select>
+    </form>
+</div>
+
+Click and drag on the canvas to rotate the scene.
+Select a new material from the dropdown to demonstrate
+refraction in different materials.
+</body>
+</html>
