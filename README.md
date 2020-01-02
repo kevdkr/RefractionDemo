@@ -1,5 +1,5 @@
 # Typescript + WebGL
-A live demo can be found [here](https://kkrohn18.github.io/RefractionDemo/index.html)
+### A live demo can be found [here](https://kkrohn18.github.io/RefractionDemo/index.html)
 
 This is a demonstration of using WebGL, a graphics library based on OpenGL, and Typescript to simulate single-sided refraction of light passing through an object.
 
